@@ -6,9 +6,65 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
 video {
   display: block;
+}
+
+body {
+  background: #e9e9e9;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.svg-menu {
+  align-self: left;
+}
+
+.topbar {
+  width: 1728px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu {
+  border-radius: 32px;
+  background: #fff;
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.tools {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.language,
+.contact {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
 }
